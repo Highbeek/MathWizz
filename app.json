@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "cvbuilder",
-    "slug": "cvbuilder",
+    "name": "mathwizz",
+    "slug": "mathwizz",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -26,5 +26,7 @@
     "web": {
       "favicon": "./assets/favicon.png"
     }
+    
   }
+  
 }
