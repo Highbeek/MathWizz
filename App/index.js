@@ -4,13 +4,16 @@ import LoginPage from './screens/LoginPage'
 import QuestionContainer from './screens/QuestionContainer'
 import GameLog from './screens/GameLog'
 import SafeView from './components/SafeView'
+import Timer from './components/Timer'
+
 
 const index = () => {
   return (
     <SafeAreaView style={[SafeView.AndroidSafeArea, styles.container]}>
-      <LoginPage/>
-      {/* <QuestionContainer /> */}
+      {/* <LoginPage/> */}
+      <QuestionContainer/>
       {/* <GameLog/> */}
+      {/* <Timer/> */}
     </SafeAreaView>
   )
 }
